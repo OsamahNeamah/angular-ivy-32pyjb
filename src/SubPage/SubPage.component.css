@@ -1,0 +1,90 @@
+.SubPage_Container {
+  width: 50%;
+  min-height: 50%;
+  float: left;
+  background-color: #fff;
+  text-align: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Blue:hover {
+  border: blue 2px solid;
+}
+.Black:hover {
+  border: black 2px solid;
+}
+.Green:hover {
+  border: green 2px solid;
+}
+.Red:hover {
+  border: red 2px solid;
+}
+.SubPage_Container h3 {
+  color: #020208;
+  font-family: 'Gabriela', serif;
+  font-size: 32px;
+  height: 20%;
+}
+
+.SubPage_Container button {
+  margin-bottom: 12px;
+}
+.SubPage_Container p {
+  color: #020208;
+  text-align: center;
+  font-family: 'Gabriela', serif;
+  font-size: 24px;
+  height: 60%;
+}
+
+.SubPage_Container .button_1 {
+  color: #fff;
+  background-color: blue;
+  text-align: center;
+  font-family: 'Gabriela', serif;
+  font-size: 24px;
+  height: 20%;
+}
+
+.SubPage_Container .button_2 {
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: 'Gabriela', serif;
+  font-size: 24px;
+}
+
+.SubPage_Container .button_3 {
+  color: #fff;
+  background-color: red;
+  text-align: center;
+  font-family: 'Gabriela', serif;
+  font-size: 24px;
+}
+
+.SubPage_Container .button_4 {
+  color: #fff;
+  background-color: green;
+  text-align: center;
+  font-family: 'Gabriela', serif;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1650px) {
+  .SubPage_Container {
+    width: 100%;
+    min-height: 10%;
+    float: left;
+    clear: both;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 12px;
+  }
+}

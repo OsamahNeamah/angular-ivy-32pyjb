@@ -1,0 +1,9 @@
+<div class="container">
+  <h1 [style]="main_h1_color">Main Page Header</h1>
+  <SubPage
+    *ngFor="let article of news"
+    [article]="article"
+    [main_h1_color]="main_h1_color"
+    (main_h1_color_Change)="addme($event)"
+  ></SubPage>
+</div>
