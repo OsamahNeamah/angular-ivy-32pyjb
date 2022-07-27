@@ -6,17 +6,6 @@ body {
   justify-content: center;
 }
 .container {
-  background: -webkit-gradient(
-    linear,
-    0 0,
-    0 100%,
-    from(rgb(253, 253, 253)),
-    to(#000000)
-  );
-  background: -webkit-linear-gradient(top, rgb(242, 247, 242), #0d0e0d);
-  background: -moz-linear-gradient(top, rgb(247, 248, 247), #1e1f1e);
-  background: -o-linear-gradient(top, rgb(255, 255, 255), #0f0f0f);
-  background: linear-gradient(top, rgb(255, 255, 255), #121312);
   width: 80%;
   box-sizing: content-box;
   height: 100vh;
@@ -27,6 +16,9 @@ body {
 }
 
 .container h1 {
+  background-color: lightblue;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   color: #fff;
   text-align: center;
   font-family: 'Gabriela', serif;

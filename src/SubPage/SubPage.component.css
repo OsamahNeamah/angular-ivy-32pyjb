@@ -10,17 +10,17 @@
   padding-right: 20px;
 }
 
-.Blue:hover {
-  border: blue 2px solid;
+.Blue {
+  border: blue 5px inset;
 }
-.Black:hover {
-  border: black 2px solid;
+.Black {
+  border: black 5px inset;
 }
-.Green:hover {
-  border: green 2px solid;
+.Green {
+  border: green 5px inset;
 }
-.Red:hover {
-  border: red 2px solid;
+.Red {
+  border: red 5px inset;
 }
 .SubPage_Container h3 {
   color: #020208;
